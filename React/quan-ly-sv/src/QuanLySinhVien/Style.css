@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+sup{
+    color: red;
+}
+.timkiem{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    align-items: center;
+    padding-right: 20px;
+}
+.timkiem, .list, .input-info{
+    border: 1px solid red;
+}
+.timkiem label, .input-info label{
+    background-color: white;
+    margin-right: 10px;
+}
+.timkiem button, .input-info button{
+    background-color: red;
+    color: white;
+}
+.timkiem input,.timkiem button{
+    border: 1px solid black;
+    margin: 0;
+    outline: none;
+    height: 25px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.list{
+    padding: 5px;
+}
+
+.list table{
+    width: calc(100%/7);
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+.list table td{
+    width: calc(100%/7);
+}
+.list table th{
+    width: calc(100%/7);
+    color: white;
+    background: red;
+    box-sizing: content-box;
+}
+.input-info{
+    text-align: center;
+}
+.input-info table{
+    display: inline;
+}
+.del, .set{
+    margin: 10px;
+}
+.del{
+    background-color: brown;
+}
+.set{
+    background-color: aquamarine;
+}

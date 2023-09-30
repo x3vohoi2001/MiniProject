@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(35deg ,rgb(230, 189, 189), rgb(163, 218, 163), rgb(184, 184, 221));
+ 
+    height: 100%;
+    overflow: auto;
+}
+.display{
+    display: inline-block;
+}
+.show{
+    display: flex;
+    justify-content: center; 
+}
+
+.cell-disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+
+.game-board{
+    display: inline-block;
+    margin: 40px;
+    box-shadow: -3px -3px 3px 25px rgba(218, 196, 196, 0.5),
+    3px 3px 3px 10px rgba(218, 196, 196, 0.2);
+    white-space: nowrap;
+}
+.game-cell{
+    display: inline-block;
+    border: 1px solid rgba(71, 25, 25, .2);
+    box-shadow: -2px -2px 3px 2px rgb(233, 224, 224);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(87, 83, 131);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.game-cell:hover{
+    background-color: rgba(56, 52, 75, 0.2);
+}
+.iput-board{
+    margin: 35px 0;
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+.iput-board input{
+    margin: 0 10px;
+    border-radius: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.iput-board button{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid rgb(204, 197, 157);
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.iput-board button:hover{
+    background-color: aquamarine;
+    border: 3px solid red;
+    box-sizing: border-box;
+    transition: background-color .5s, border .5s;
+}
+
+.show button{
+    line-height: 30px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.show label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.show{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.show button:hover{
+    background-color: rgb(119, 196, 68);
+}
+
+.buoc{
+    background-color: aliceblue;
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: auto;
+}
+#show-buoc{
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 70px;
+}
+.newPoin{
+    color: red;
+    font-size: 30px;
+}
+
+.win{
+    background-color: brown;
+}
